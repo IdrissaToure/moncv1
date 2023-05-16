@@ -1,0 +1,119 @@
+/*definition de des valeur par defaut*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+#page{
+    display: flex;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+
+}
+/*definition des valeur couleur*/
+
+:root{
+    --bleu:#030C5A;
+    --blueClaire: #007AD2;
+    --blanc: #fff;
+}
+#gauche{
+    width: 40%;
+    height: auto;
+    background-color: var(--bleu);
+    color: #fff;
+}
+.image img{
+    border: 1px solid var(--blueClaire);
+    height: 164px;
+    width: 164px;
+    border-radius: 50% ;
+
+}
+.containerG{
+    margin-left: 110px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tr{
+    height: 6px;
+    width: 60px;
+    background-color: rgb(25, 60, 214);
+    border-radius: 5px;
+}
+h1{
+    
+    text-align: center;
+    color: #007AD2;
+}
+h3 {
+    padding-bottom: 30px;
+    text-align: center;
+    color: #007AD2;
+}
+h4{
+    font-size: 100%;
+    text-transform: uppercase;
+
+}
+.containerG p{
+    margin: 15px 0 15px 0;
+}
+.dev{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #007AD2;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 10px;
+
+}
+#droite{
+    margin-top: 60px;
+    width: 60%;
+
+}
+.containerD{
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+droite h4{
+    font-size: 100%;
+    text-transform: uppercase;
+}
+.googlemali{
+    color: #007AD2;
+}
+li{
+    margin-left: 30px;
+}
+.containerD h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media screen and (max-whi: 400px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
